@@ -1,3 +1,4 @@
+click<8.0,>=7.0
 joblib==1.0.1
 pandas==1.2.4
 streamlit==1.2.0
