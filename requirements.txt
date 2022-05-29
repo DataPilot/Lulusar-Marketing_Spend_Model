@@ -1,7 +1,6 @@
 click==7.1.2
 joblib==1.0.1
 pandas==1.2.4
-streamlit==1.2.0
 pickle5<=0.0.12
 pickleshare==0.7.5
 xgboost==0.90
