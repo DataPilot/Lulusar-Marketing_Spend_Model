@@ -85,11 +85,11 @@ if st.button('Predict'):
 
     test_DF2 = pd.DataFrame([test2])
 
-    # path2 = '/./model_scaler/'
-    inner2 = pickle.load(open('./model_scaler/inner_1.gz', 'rb'))
-    outer2 = pickle.load(open('./model_scaler/outer.gz', 'rb'))
+    # path2 = '/./scaler_data_2/'
+    inner2 = pickle.load(open('./scaler_data_2/inner_1.gz', 'rb'))
+    outer2 = pickle.load(open('./scaler_data_2/outer.gz', 'rb'))
 
-    model2 = pickle.load(open('./model_scaler/xgb_reg_1.pkl', "rb"))
+    model2 = pickle.load(open('./scaler_data_2/xgb_reg_1.pkl', "rb"))
 
     test_DF2 = pd.DataFrame(inner2.transform(test_DF2))
     test_DF2 = test_DF2.rename(columns={0: 'orders', 1: 'revenue', 2: 'average_price', 3: 'fb_purchases',
@@ -116,11 +116,11 @@ if st.button('Predict'):
 
     test_DF3 = pd.DataFrame([test3])
 
-    # path3 = '/./model_scaler/'
-    inner3 = pickle.load(open('./model_scaler/inner_2.gz', 'rb'))
-    outer3 = pickle.load(open('./model_scaler/outer.gz', 'rb'))
+    # path3 = '/./scaler_data_2/'
+    inner3 = pickle.load(open('./scaler_data_2/inner_2.gz', 'rb'))
+    outer3 = pickle.load(open('./scaler_data_2/outer.gz', 'rb'))
 
-    model3 = pickle.load(open('./model_scaler/xgb_reg_2.pkl', "rb"))
+    model3 = pickle.load(open('./scaler_data_2/xgb_reg_2.pkl', "rb"))
 
     test_DF3 = pd.DataFrame(inner3.transform(test_DF3))
 
@@ -148,11 +148,11 @@ if st.button('Predict'):
 
     test_DF4 = pd.DataFrame([test4])
 
-    # path4 = '/./model_scaler/'
-    inner4 = pickle.load(open('./model_scaler/inner_3.gz', 'rb'))
-    outer4 = pickle.load(open('./model_scaler/outer.gz', 'rb'))
+    # path4 = '/./scaler_data_2/'
+    inner4 = pickle.load(open('./scaler_data_2/inner_3.gz', 'rb'))
+    outer4 = pickle.load(open('./scaler_data_2/outer.gz', 'rb'))
 
-    model4 = pickle.load(open('./model_scaler/xgb_reg_3.pkl', "rb"))
+    model4 = pickle.load(open('./scaler_data_2/xgb_reg_3.pkl', "rb"))
 
     test_DF4 = pd.DataFrame(inner4.transform(test_DF4))
 
@@ -179,11 +179,11 @@ if st.button('Predict'):
 
     test_DF55 = pd.DataFrame([test5])
 
-    # path5 = '/./model_scaler/'
-    inner5 = pickle.load(open('./model_scaler/inner_4.gz', 'rb'))
-    outer5 = pickle.load(open('./model_scaler/outer.gz', 'rb'))
+    # path5 = '/./scaler_data_2/'
+    inner5 = pickle.load(open('./scaler_data_2/inner_4.gz', 'rb'))
+    outer5 = pickle.load(open('./scaler_data_2/outer.gz', 'rb'))
 
-    model5 = pickle.load(open('./model_scaler/xgb_reg_4.pkl', "rb"))
+    model5 = pickle.load(open('./scaler_data_2/xgb_reg_4.pkl', "rb"))
 
     test_DF5 = pd.DataFrame(inner5.transform(test_DF55))
 
@@ -210,11 +210,11 @@ if st.button('Predict'):
 
     test_DF6 = pd.DataFrame([test6])
 
-    # path6 = '/./model_scaler/'
-    inner6 = pickle.load(open('./model_scaler/inner_5.gz', 'rb'))
-    outer6 = pickle.load(open('./model_scaler/outer.gz', 'rb'))
+    # path6 = '/./scaler_data_2/'
+    inner6 = pickle.load(open('./scaler_data_2/inner_5.gz', 'rb'))
+    outer6 = pickle.load(open('./scaler_data_2/outer.gz', 'rb'))
 
-    model6 = pickle.load(open('./model_scaler/xgb_reg_5.pkl', "rb"))
+    model6 = pickle.load(open('./scaler_data_2/xgb_reg_5.pkl', "rb"))
 
     test_DF6 = pd.DataFrame(inner6.transform(test_DF6))
 
